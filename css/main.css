@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+    font-family: arial, sans-serif;
+}
+
+.contenedor {
+    width: 1000px;
+    background-color: rgb(228, 228, 228);
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+header {
+    background: #fff;
+    color: #000;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.main {
+    background: #fff;
+    padding: 20px;
+    width: 70%;
+    float: left;
+}
+
+aside {
+    background: lightcoral;
+    color: lightcyan;
+    padding: 20px;
+    width: 30%;
+    float: left;
+}
+
+footer {
+    clear: both;
+    background: brown;
+    padding: 20px;
+    color: #fff;
+}
+
+.imagen {
+    width: 70%;
+    margin: 0px;
+    float: left;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    animation-delay: 2s;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    padding: 20px;
+    color: white;
+    background-color: rgb(2, 105, 136);
+}
+
+.main article p {
+    margin-top: 15px;
+    line-height: 28px;
+}
+
+aside {
+    width: 300px;
+    background-color: rgb(4, 120, 143);
+    float: left;
+}
+
+aside p {
+    margin-top: 15px;
+    line-height: 28px;
+}
+
+.navegador ul li a {
+    display: block;
+    color: white;
+}
+
+.navegador ul li a:hover {
+    background-color: rgba(163, 234, 255, 0.507);
+}
