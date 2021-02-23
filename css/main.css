@@ -13,8 +13,8 @@ body {
 }
 
 .contenedor {
-    width: 1000px;
-    background-color: rgb(228, 228, 228);
+    width: 95%;
+    max-width: 1000px;
     margin: 20px auto;
     overflow: hidden;
 }
@@ -46,6 +46,7 @@ footer {
     background: brown;
     padding: 20px;
     color: #fff;
+    width: 70%;
 }
 
 .imagen {
@@ -99,14 +100,14 @@ nav ul li a:hover {
 }
 
 aside {
-    width: 300px;
+    width: 30%;
     background-color: rgb(4, 120, 143);
     float: left;
 }
 
 aside p {
     margin-top: 15px;
-    line-height: 28px;
+    line-height: 30px;
 }
 
 .navegador ul li a {
@@ -116,4 +117,40 @@ aside p {
 
 .navegador ul li a:hover {
     background-color: rgba(163, 234, 255, 0.507);
+}
+
+.titulo {
+    color: white;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:1071PX) {
+    .imagen {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    aside {
+        width: 30%;
+    }
+    .main {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:700PX) {
+    .imagen {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+    }
 }
